@@ -6,7 +6,8 @@
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'> -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:700italic' rel='stylesheet' type='text/css'>
 <style type="text/css">
 	*{
@@ -14,10 +15,11 @@
 		padding:0;
 	}
 	.intro{
-		background: url('lib/img/t.jpg') center center fixed;
-		/*background-size:cover; */
+		background: url('lib/img/resss.jpg') center center fixed;
+		background-size:cover; 
 		height: 667px;
 		/*height: auto;*/
+		/*background-repeat: no-repeat;*/
 		position: relative;
 	}
 	
@@ -31,14 +33,15 @@
 	}
 	.h{
 		font-size: 64px;
-    font-family: 'Oswald',sans-serif;
-    color: #DC1C1C;
+		font-variant: small-caps;
+    font-family: ' Condensed',sans-serif;
+    color: #fff;
 	}
 	.hh{
 		    font-size: 32px;
     font-family: sans-serif;
-    color: #7D7676;
-    font-family: 'Oswald',sans-serif;
+    color: #fff;
+    font-family: 'Roboto Condensed',sans-serif;
 	}
 	.skills{
 		padding:150px 0;
@@ -106,24 +109,45 @@ color: #fff;
 	.proj_title{
 		margin-top: 0px;
 	}
+	.mains{
+		    /*background-color: #F0F8FF;*/
+    margin-top: 30vh;
+}
+	.cover-glass{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: rgba(74, 72, 72, 0.49);
+	}
+	.img-my{
+		    width: 150px;
+    height: 150px;
+	}
+	.my-image{
+		    border-radius: 50%;
+    border: 4px solid #FFFFFF;
+	}
 </style>
 </head>
 <body>
 	<div class="main-body">
 		<section class="intro">
+			<div class="cover-glass"></div>
 			<div class="container-fluid">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h1 class="h">Siddharth Dubey</h1>
-				<h2 class="hh">Front end developer</h2>	
+				<div class="col-lg-6 col-lg-offset-3 mains">
+					<div class="center-block img-my">
+						<img src="lib/img/p.jpg" class="my-image img-responsive">
+					</div>
+				<h1 class="h text-center">Siddharth Dubey</h1>
+				<hr>
+				<h2 class="hh text-center">Front End Developer, Web Developer</h2>
+				<h2 class="text-center">
+					<a target="_blank" href="https://in.linkedin.com/in/siddharthdubey26"><span class="fa fa-linkedin"></span></a>
+					<a target="_blank" href="https://github.com/Siddharth-dubey"><span class="fa fa-github"></span></a>
+					<a target="_blank" href="https://twitter.com/Siddharth4478"><span class="fa fa-twitter"></span></a>
+				</h2>
 				</div>
-				<div class="col-lg-6">
-					<!-- <video no-controls autoplay src="lib/img/i.mp4"> -->
-						
-					</video>
-				</div>
-				<!-- <div class="col-lg-6">
-					<img src="lib/img/b.jpg" class="img-responsive">
-				</div> -->
+				
 			</div><!-- 
 			<div class="intro-info">
 				
@@ -133,8 +157,8 @@ color: #fff;
 			<div class="container-fluid">
 				<div class="col-lg-6 col-sm-12">
 					<h3 class="know text-left">My Powerset</h3>
-					<h4 class="in text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut itaque laboriosam quibusdam, exercitationem officiis ipsum. Excepturi repellat vel, sit modi autem unde nemo. In quo voluptates nulla placeat sit!</h4>
-					<!-- <img src="lib/img/simp.gif" class="img-responsive"> -->
+					<h4 class="in text-left">Skills maketh a developer!<br>I have been working on these technologies for the past 3 years.</h4>
+					<!-- <img src="lib/img/tt.gif" class="img-responsive"> -->
 				</div>
 				<div class="col-lg-6 col-sm-12">
 					<div class="row">
@@ -240,7 +264,7 @@ color: #fff;
 					<div class="col-lg-2 col-xs-6 s_icon"><a href="#"><img src="lib/img/gith.png" class="img-responsive"></a></div>
 					<div class="col-lg-2 col-xs-6 s_icon"></div>
 					</div>
-				</div> -->
+				</div> <--></-->
 				<div class="col-lg-6">
 					<h4 class="know">Reach Me</h4>
 					<h4 style="line-height:1.5">What could be more convienent than a email? If you like my work or just wanna say hi, just drop me a message.</h4>
