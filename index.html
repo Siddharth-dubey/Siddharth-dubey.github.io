@@ -3,157 +3,34 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>Siddharth Dubey | Front-end developer</title>
-	
-<style type="text/css">
-	*{
-		margin: 0;
-		padding:0;
-	}
-	.intro{
-		background: url('lib/img/resss.jpg') center center fixed;
-		background-size:cover; 
-		height: 667px;
-		/*height: auto;*/
-		/*background-repeat: no-repeat;*/
-		position: relative;
-	}
-	
-	.intro-info{
-		/*position: absolute;*/
-    padding: 20px;
-    top: 20%;
-    width: 525px;
-    background: #FBFAFA;
-    left: 10%;
-	}
-	.h{
-		font-size: 64px;
-		font-variant: small-caps;
-    font-family: ' Condensed',sans-serif;
-    color: #fff;
-	}
-	.hh{
-		    font-size: 32px;
-    font-family: sans-serif;
-    color: #fff;
-    font-family: 'Roboto Condensed',sans-serif;
-	}
-	.skills{
-		padding:150px 0;
-	}
-	.know{
-		height: auto;
-		font-family: 'Lato', sans-serif;;
-		font-size: 64px;
-	}
-	.tags{
-		 padding: 40px 10px;
-    color: #AFADAD;
-    text-align: center;font-weight: 400;
-    font-family: 'Roboto Condensed', sans-serif;
-    box-shadow: 4px 4px 10px #eee;
-
-	}
-
-	.tags_a{
-		color: #fff;
-		background:#DC4747;
-		background: #F44336;
+	<link rel="stylesheet" type="text/css" href="lib/css/main.css">
 		
-	}
-	.tags_a:hover{
-		background: #FFFCD1;
-		cursor: pointer;
-		color: #968989;
-	}
-	.tags_b:hover{
-color: #fff;
-		background:#DC4747;
-		background: #F44336;
-	}
-	.tags_b{
-		background: #27DE92;
-		background: #FFFDE7;
-		background: #FFFCD1;
-		color: #968989;
-		cursor: pointer;
-	}
-	.in{
-		width: 80%;
-    line-height: 1.5;
-    font-weight: 
-    	font-family: 'Roboto Condensed', sans-serif;
-    padding-top: 5px;
-	}
-	.cmng{
-		padding: 25px 0;
-	}
-	.gutter-less{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.projs{
-		border-top: 1px solid #ddd;
-    padding: 20px 0;
-	}
-	.proj_head{
-		background: url('lib/img/t.jpg') center center fixed;
-    color: #F10707;
-    border-top: 1px solid #ddd;
-	}
-	.proj_title{
-		margin-top: 0px;
-	}
-	.mains{
-		    /*background-color: #F0F8FF;*/
-    margin-top: 30vh;
-}
-	.cover-glass{
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background: rgba(74, 72, 72, 0.49);
-	}
-	.img-my{
-		    width: 150px;
-    height: 150px;
-	}
-	.my-image{
-		    border-radius: 50%;
-    border: 4px solid #FFFFFF;
-	}
-</style>
 </head>
 <body>
 	<div class="main-body">
 		<section class="intro">
 			<div class="cover-glass"></div>
 			<div class="container-fluid">
-				<div class="col-lg-6 col-lg-offset-3 mains">
-					<div class="center-block img-my">
+				<div class="col-lg-6 col-lg-offset-3 main-info-section">
+					<div class="center-block img-blck">
 						<img src="lib/img/pc.jpg" class="my-image img-responsive">
 					</div>
-				<h1 class="h text-center">Siddharth Dubey</h1>
+				<h1 class="name text-center">Siddharth Dubey</h1>
 				<hr>
-				<h2 class="hh text-center">Front End Developer, Web Developer</h2>
+				<h2 class="desgn text-center">Front End Developer, Web Developer</h2>
 				<h2 class="text-center">
 					<a target="_blank" href="https://in.linkedin.com/in/siddharthdubey26"><span class="fa fa-linkedin"></span></a>
 					<a target="_blank" href="https://github.com/Siddharth-dubey"><span class="fa fa-github"></span></a>
 					<a target="_blank" href="https://twitter.com/Siddharth4478"><span class="fa fa-twitter"></span></a>
 				</h2>
 				</div>
-				
-			</div><!-- 
-			<div class="intro-info">
-				
-			</div> -->
+			</div>
 		</section>
 		<section class="skills">
 			<div class="container-fluid">
 				<div class="col-lg-6 col-sm-12">
-					<h3 class="know text-left">My Powerset</h3>
+					<h3 class="sub-heads text-left">My Powerset</h3>
 					<h4 class="in text-left">Skills maketh a developer!<br>I have been working on these technologies for the past 3 years.</h4>
-					<!-- <img src="lib/img/tt.gif" class="img-responsive"> -->
 				</div>
 				<div class="col-lg-6 col-sm-12">
 					<div class="row">
@@ -184,7 +61,7 @@ color: #fff;
 		<section class="proj">
 			<div class="container-fluid">
 				<div class="col-lg-12 col-sm-12 proj_head">
-					<h3 class="text-center know"><span class="glyphicon glyphicon-fire"></span> My Projects</h3>
+					<h3 class="text-center sub-heads"><span class="glyphicon glyphicon-fire"></span> My Projects</h3>
 					<!-- <h4 class="text-center" style="line-height:1.5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut itaque laboriosam quibusdam, exercitationem officiis ipsum. Excepturi repellat vel, sit modi autem unde nemo. In quo voluptates nulla placeat sit!</h4> --><br>
 				</div>
 				<div class="col-lg-12 projs">
@@ -192,14 +69,15 @@ color: #fff;
 						<img src="lib/img/still.jpg" class="img-responsive">
 					</div>
 					<div class="col-lg-6">
-						<h3 class="proj_title"><strong><em>StillinTouch</em></strong></h3>
-						<h4 class="in">A full stack social networking website used to connect to friends.I created a solid back-end system using <code>PHP</code> and <code>MySQL</code>.The site had a system of upvotes nad downvotes for each post. The Front-end was build completely using vanilla <code>Javascript</code> ,<code>HTML</code>,<code>CSS</code>and a bit off <code>jQuery</code>.</h4>
+						<h3 class="proj_title"><strong>StillinTouch</strong></h3>
+						<h4 class="in">A full stack social networking website used to connect to friends.I created a solid back-end system using <code>PHP</code> and <code>MySQL</code>.The site had a system of upvotes and downvotes for each post. The Front-end was build completely using vanilla <code>Javascript</code> ,<code>HTML</code>,<code>CSS</code>and a bit off <code>jQuery</code>.</h4>
+						<h4>See the source code here <a href="http://github.com/siddharth-dubey/stillintouch">Github</a></h4>
 					</div>
 				</div>
 				<div class="col-lg-12 projs">
 					<div class="col-lg-6">
 						<h3 class="proj_title"><strong><em>Weather pro</em></strong></h3>
-						<h4 class="in">It`s a web application created with <code>Angular JS</code>.The app lets you the weather data of more than 200,000 cities.The app provides current weather condition along with detailed forecast of next 7 days.</h4>
+						<h4 class="in">It`s a web application created with <code>Angular JS</code>.The app lets you see the weather data of more than 200,000 cities.The app provides current weather condition along with detailed forecast of next 7 days.</h4>
 						<h4>See it live: <a href="http://www.siddharth-dubey.github.io/weather" target="_blank">Weather Pro</a></h4>
 					</div>
 					<div class="col-lg-6">
@@ -213,7 +91,7 @@ color: #fff;
 					</div>
 					<div class="col-lg-6">
 						<h3 class="proj_title"><strong><em>Almadrive</em></strong></h3>
-						<h4 class="in">It`s an Enterprise Resource Planing web application.It provides an cloud based portal to fully manage schools.The portal allowed access to students and teachers to access and add information,notices e.t.c.It`s also a full stack application.<code>Bootstrap</code> and <code>JQuery</code> is heavily used.</h4>
+						<h4 class="in">It`s an Enterprise Resource Planing(ERP) web application.It provides an cloud based portal to fully manage schools.The portal allowed access to students and teachers to access and add information,notices e.t.c.It`s also a full stack application.<code>Bootstrap</code> and <code>JQuery</code> is heavily used.</h4>
 					</div>
 				</div>
 				<div class="col-lg-12 projs">
@@ -234,7 +112,7 @@ color: #fff;
 		<section class="workon">
 			<div class="container-fluid">
 			<div class="col-lg-12">
-				<h3 class="text-left know">Coming soon</h3>
+				<h3 class="text-left sub-heads">Coming soon</h3>
 				<h4 class="text-left" style="line-height:1.5">The web gets updated everyday and to keep up to it`s pace it is important to keep yourself updated.Thus following are the technolgies I am currently brushing my skills and will  work on them in the near future.</h4>
 			</div>
 			<div class="col-lg-12 cmng">
@@ -246,23 +124,9 @@ color: #fff;
 		</section><hr>
 		<section class="contact" style="padding:50px 0">
 			<div class="container-fluid">
-				<!-- <div class="col-lg-12 col-sm-12">
-					<h3 class="text-center know">Reach Me</h3><br>
-					<h3 class="text-center" style="line-height:1.5">What could be more convienent than a email? If you like my work or just wanna say hi just drop me a message.</h3>
-					<h3 class="text-center"><a href="mailto:dubey.siddharth@outlook.com">dubey.siddharth@outlook.com</a></h3><br>
-					<h2 class="text-center">OR</h2><br>
-					<h4 class="text-center" style="line-height:1.5">There are several ways to reach me.So just reach out for an interesting chat or some work.</h4>
-					<br>
-					<div class="col-lg-8 col-lg-offset-4">
-					<div class="col-lg-2 col-xs-6 s_icon"><a href="http://twitter.com/siddharth4478"><img src="lib/img/tw.png" class="img-responsive"></a></div>
-					<div class="col-lg-2 col-xs-6 s_icon"><a href="#"><img src="lib/img/link.png" class="img-responsive"></a></div>
-					<div class="col-lg-2 col-xs-6 s_icon"><a href="#"><img src="lib/img/gith.png" class="img-responsive"></a></div>
-					<div class="col-lg-2 col-xs-6 s_icon"></div>
-					</div>
-				</div> <--></-->	
 				<div class="col-lg-6">
-					<h4 class="know">Reach Me</h4>
-					<h4 style="line-height:1.5">What could be more convienent than a email? If you like my work or just wanna say hi, just drop me a message.</h4>
+					<h4 class="sub-heads">Reach Me</h4>
+					<h4 style="line-height:1.5">What could be more convienent than a email? If you like my work or wanna say hi, just drop me a message.</h4>
 					<h4><a href="mailto:dubey.siddharth@outlook.com">dubey.siddharth@outlook.com</a></h4>
 				</div>
 				<div class="col-lg-6" style="padding:40px 0">
