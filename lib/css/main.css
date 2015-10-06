@@ -101,7 +101,13 @@
 	@media only screen and (max-width: 480px ){
 
 	.main-info-section{
-    	margin-top: 20vh;
+    	margin-top: 15vh;
 	}	
 	
+	}
+
+	@media only screen and (max-width: :667px) and (min-width: 375px) and (orientation:landscape){
+		.main-top-section{
+			margin-top: 0vh;
+		}
 	}
