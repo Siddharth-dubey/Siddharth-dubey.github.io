@@ -1,3 +1,6 @@
+	/*CSS file for main site*/
+	/*Siddharth Dubey*/
+
 	*{
 		margin: 0;
 		padding:0;
@@ -82,8 +85,7 @@
 		background: #F44336;
 	}
 	.proj_head{
-		background: url('../img/t.jpg') center center fixed;
-    color: #F10707;
+	
     border-top: 1px solid #ddd;
 	}
 	.projs{
@@ -104,6 +106,10 @@
     	margin-top: 15vh;
 	}	
 	
+	.proj_title{
+		margin-top: 20px;
+	}
+
 	}
 
 	@media only screen and (max-width: :667px) and (min-width: 375px) and (orientation:landscape){
